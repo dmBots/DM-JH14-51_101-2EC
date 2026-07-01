@@ -4,25 +4,21 @@
 
 ## Overview
 
-This repository is the material entry point for the `DM-JH14-51_101-2EC` harmonic drive motor.
+This folder is the Chinese source of materials for DM-JH14-51_101-2EC. Maintainers update the Chinese source folders only; Gitee preserves them, and GitHub publishing maps them to English paths.
 
-It is the pilot repository for the unified subrepository structure. The internal material paths are kept consistent across Gitee and GitHub.
+## Source Mapping
 
-## Resources
+| Chinese source folder | GitHub publish folder | Notes |
+| --- | --- | --- |
+| `说明书/` | `manual/` | manuals, datasheets, and usage notes |
+| `2D图纸/` | `drawings/2d/` | 2D drawings, dimensions, and schematic materials |
+| `3D模型/` | `models/3d/` | 3D models and mechanical files |
+| `测试数据/` | `test-data/` | test data, performance curves, and validation materials |
+| `版本说明/` | `release-notes/` | release notes and change records |
 
-- [manual/](manual/) - user manuals and usage notes
-- [drawings/2d/](drawings/2d/) - 2D drawings
-- [models/3d/](models/3d/) - 3D models
-- [test-data/](test-data/) - reserved test data folder
-- [release-notes/](release-notes/) - reserved release notes folder
+## Publishing Policy
 
-## Quick Start
-
-- Start from [manual/](manual/) when checking this model for the first time.
-- For mechanical integration, continue to [drawings/2d/](drawings/2d/) and [models/3d/](models/3d/).
-
-## Structure Policy
-
-- Gitee uses Chinese as the default `README.md`.
-- GitHub uses English as the default `README.md`.
-- Both sides keep the same material paths to avoid maintaining duplicate Chinese and English directory structures.
+- The source folder keeps Chinese paths for maintainers.
+- Gitee uses Chinese paths and Chinese README by default.
+- GitHub is generated with English paths and English README by the publish script.
+- Do not maintain a second English source tree manually.
